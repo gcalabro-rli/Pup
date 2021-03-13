@@ -10,6 +10,8 @@ public class test implements java.io.Serializable {
 
 	private java.util.Date test;
 
+	private java.lang.Double test2;
+
 	public test() {
 	}
 
@@ -21,8 +23,17 @@ public class test implements java.io.Serializable {
 		this.test = test;
 	}
 
-	public test(java.util.Date test) {
+	public java.lang.Double getTest2() {
+		return this.test2;
+	}
+
+	public void setTest2(java.lang.Double test2) {
+		this.test2 = test2;
+	}
+
+	public test(java.util.Date test, java.lang.Double test2) {
 		this.test = test;
+		this.test2 = test2;
 	}
 
 }
