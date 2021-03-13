@@ -16,6 +16,8 @@ public class test implements java.io.Serializable {
 
 	private java.lang.Double test5;
 
+	private java.lang.Byte test6;
+
 	public test() {
 	}
 
@@ -51,12 +53,21 @@ public class test implements java.io.Serializable {
 		this.test5 = test5;
 	}
 
+	public java.lang.Byte getTest6() {
+		return this.test6;
+	}
+
+	public void setTest6(java.lang.Byte test6) {
+		this.test6 = test6;
+	}
+
 	public test(java.util.Date test, java.lang.Double test2,
-			java.util.Date test4, java.lang.Double test5) {
+			java.util.Date test4, java.lang.Double test5, java.lang.Byte test6) {
 		this.test = test;
 		this.test2 = test2;
 		this.test4 = test4;
 		this.test5 = test5;
+		this.test6 = test6;
 	}
 
 }
