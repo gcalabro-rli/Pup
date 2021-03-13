@@ -20,6 +20,8 @@ public class test implements java.io.Serializable {
 
 	private java.util.Date test222;
 
+	private java.math.BigDecimal test45;
+
 	public test() {
 	}
 
@@ -71,15 +73,24 @@ public class test implements java.io.Serializable {
 		this.test222 = test222;
 	}
 
+	public java.math.BigDecimal getTest45() {
+		return this.test45;
+	}
+
+	public void setTest45(java.math.BigDecimal test45) {
+		this.test45 = test45;
+	}
+
 	public test(java.util.Date test, java.lang.Double test2,
 			java.util.Date test4, java.lang.Double test5, java.lang.Byte test6,
-			java.util.Date test222) {
+			java.util.Date test222, java.math.BigDecimal test45) {
 		this.test = test;
 		this.test2 = test2;
 		this.test4 = test4;
 		this.test5 = test5;
 		this.test6 = test6;
 		this.test222 = test222;
+		this.test45 = test45;
 	}
 
 }
