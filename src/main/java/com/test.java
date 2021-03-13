@@ -6,12 +6,23 @@ package com;
 
 public class test implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public test() {
-    }
+	private java.util.Date test;
 
+	public test() {
+	}
 
+	public java.util.Date getTest() {
+		return this.test;
+	}
 
+	public void setTest(java.util.Date test) {
+		this.test = test;
+	}
+
+	public test(java.util.Date test) {
+		this.test = test;
+	}
 
 }
