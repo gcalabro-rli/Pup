@@ -18,6 +18,8 @@ public class test implements java.io.Serializable {
 
 	private java.lang.Byte test6;
 
+	private java.util.Date test222;
+
 	public test() {
 	}
 
@@ -61,13 +63,23 @@ public class test implements java.io.Serializable {
 		this.test6 = test6;
 	}
 
+	public java.util.Date getTest222() {
+		return this.test222;
+	}
+
+	public void setTest222(java.util.Date test222) {
+		this.test222 = test222;
+	}
+
 	public test(java.util.Date test, java.lang.Double test2,
-			java.util.Date test4, java.lang.Double test5, java.lang.Byte test6) {
+			java.util.Date test4, java.lang.Double test5, java.lang.Byte test6,
+			java.util.Date test222) {
 		this.test = test;
 		this.test2 = test2;
 		this.test4 = test4;
 		this.test5 = test5;
 		this.test6 = test6;
+		this.test222 = test222;
 	}
 
 }
